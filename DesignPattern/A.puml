@@ -1,0 +1,108 @@
+@startuml
+abstract class designpattern.singleton.Bai3.Shape
+abstract class designpattern.singleton.vidu2.Shape
+abstract class stratery.duck_example.Duck
+annotation java.lang.Override
+class designpattern.builderpattern.Bai2.Main
+class designpattern.builderpattern.Bai2.MyStringBuilder
+class designpattern.singleton.Bai3.Circle
+class designpattern.singleton.Bai3.Main
+class designpattern.singleton.Bai3.Rectangle
+class designpattern.singleton.Bai3.ShapeFactory
+class designpattern.singleton.Bai3.Triangle
+class designpattern.singleton.Bai4.Election
+class designpattern.singleton.Bai4.Main
+class designpattern.singleton.Bai4.User
+class designpattern.singleton.vidu.Main
+class designpattern.singleton.vidu.Singleton
+class designpattern.singleton.vidu2.Circle
+class designpattern.singleton.vidu2.Main
+class designpattern.singleton.vidu2.Rectangle
+class designpattern.singleton.vidu2.ShapeFactory
+class designpattern.singleton.vidu2.Triangle
+class java.util.ArrayList
+class java.util.Calendar
+class java.util.Date
+class java.util.List
+class stratery.baitap1.Chia
+class stratery.baitap1.Cong
+class stratery.baitap1.Context
+class stratery.baitap1.Main
+class stratery.baitap1.Nhan
+class stratery.baitap1.Tru
+class stratery.baitap2.GioHang
+class stratery.baitap2.HangHoa
+class stratery.baitap2.Main
+class stratery.baitap2.ThanhToanCOD
+class stratery.baitap2.ThanhToanOline
+class stratery.baitap3.Main
+class stratery.baitap3.QLSV
+class stratery.baitap3.SinhVien
+class stratery.baitap3.SoSanhTheoDiem
+class stratery.baitap3.SoSanhTheoTen
+class stratery.duck_example.DuckExMain
+class stratery.duck_example.FlyFly
+class stratery.duck_example.FlyNoWay
+class stratery.duck_example.FlyWithWings
+class stratery.duck_example.Quack
+class stratery.duck_example.Squeak
+class stratery.duck_example.VitXiem
+enum designpattern.singleton.Bai3.ShapeType
+enum designpattern.singleton.Bai4.UngVien
+enum designpattern.singleton.vidu2.ShapeType
+interface stratery.baitap1.ITinh
+interface stratery.baitap2.IThanhToan
+interface stratery.baitap3.ISoSanh
+interface stratery.duck_example.IFlyBehavior
+interface stratery.duck_example.IQuackBehavior
+designpattern.singleton.Bai3.Shape ..> java.lang.Override
+designpattern.singleton.vidu2.Shape ..> java.lang.Override
+designpattern.builderpattern.Bai2.MyStringBuilder ..> java.lang.Override
+designpattern.singleton.Bai3.Circle --|> designpattern.singleton.Bai3.Shape
+designpattern.singleton.Bai3.Circle ..> java.lang.Override
+designpattern.singleton.Bai3.Rectangle --|> designpattern.singleton.Bai3.Shape
+designpattern.singleton.Bai3.Rectangle ..> java.lang.Override
+designpattern.singleton.Bai3.Triangle --|> designpattern.singleton.Bai3.Shape
+designpattern.singleton.Bai3.Triangle ..> java.lang.Override
+designpattern.singleton.vidu2.Circle --|> designpattern.singleton.vidu2.Shape
+designpattern.singleton.vidu2.Circle ..> java.lang.Override
+designpattern.singleton.vidu2.Rectangle --|> designpattern.singleton.vidu2.Shape
+designpattern.singleton.vidu2.Rectangle ..> java.lang.Override
+designpattern.singleton.vidu2.Triangle --|> designpattern.singleton.vidu2.Shape
+designpattern.singleton.vidu2.Triangle ..> java.lang.Override
+stratery.baitap1.Chia ..> java.lang.Override
+stratery.baitap1.Chia --|> stratery.baitap1.ITinh
+stratery.baitap1.Cong ..> java.lang.Override
+stratery.baitap1.Cong --|> stratery.baitap1.ITinh
+stratery.baitap1.Nhan ..> java.lang.Override
+stratery.baitap1.Nhan --|> stratery.baitap1.ITinh
+stratery.baitap1.Tru ..> java.lang.Override
+stratery.baitap1.Tru --|> stratery.baitap1.ITinh
+stratery.baitap2.GioHang ..> java.util.ArrayList
+stratery.baitap2.GioHang ..> java.util.List
+stratery.baitap2.ThanhToanCOD ..> java.lang.Override
+stratery.baitap2.ThanhToanCOD --|> stratery.baitap2.IThanhToan
+stratery.baitap2.ThanhToanOline ..> java.lang.Override
+stratery.baitap2.ThanhToanOline --|> stratery.baitap2.IThanhToan
+stratery.baitap3.Main ..> java.util.Calendar
+stratery.baitap3.QLSV ..> java.util.ArrayList
+stratery.baitap3.QLSV ..> java.util.List
+stratery.baitap3.SinhVien ..> java.lang.Override
+stratery.baitap3.SinhVien ..> java.util.Date
+stratery.baitap3.SoSanhTheoDiem ..> java.lang.Override
+stratery.baitap3.SoSanhTheoDiem --|> stratery.baitap3.ISoSanh
+stratery.baitap3.SoSanhTheoTen ..> java.lang.Override
+stratery.baitap3.SoSanhTheoTen --|> stratery.baitap3.ISoSanh
+stratery.duck_example.FlyFly ..> java.lang.Override
+stratery.duck_example.FlyFly --|> stratery.duck_example.IFlyBehavior
+stratery.duck_example.FlyNoWay ..> java.lang.Override
+stratery.duck_example.FlyNoWay --|> stratery.duck_example.IFlyBehavior
+stratery.duck_example.FlyWithWings ..> java.lang.Override
+stratery.duck_example.FlyWithWings --|> stratery.duck_example.IFlyBehavior
+stratery.duck_example.Quack ..> java.lang.Override
+stratery.duck_example.Quack --|> stratery.duck_example.IQuackBehavior
+stratery.duck_example.Squeak ..> java.lang.Override
+stratery.duck_example.Squeak --|> stratery.duck_example.IQuackBehavior
+stratery.duck_example.VitXiem --|> stratery.duck_example.Duck
+stratery.duck_example.VitXiem ..> java.lang.Override
+@enduml

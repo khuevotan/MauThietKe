@@ -1,0 +1,5 @@
+designpattern.Structural.compositeopattern.mau.folder1.Developer
+designpattern.Structural.compositeopattern.mau.folder1.NewClass
+designpattern.Structural.compositeopattern.mau.folder1.Employee
+designpattern.Structural.compositeopattern.mau.folder1.Manager
+designpattern.Structural.compositeopattern.mau.folder1.CompanyDirectory
